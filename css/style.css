@@ -166,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
 # Intro Section
 --------------------------------------------------------------*/
 #intro {
-  width: 100%;
+  width: 100vw;
   height: 60vh;
   position: relative;
   background-size: auto;

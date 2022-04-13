@@ -7,15 +7,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-html{
-  overflow-x: hidden;
-}
-
 body {
   background: #fff;
   color: #444;
   font-family: "Open Sans", sans-serif;
-  overflow-x: hidden;
 }
 
 a {
@@ -171,10 +166,10 @@ h1, h2, h3, h4, h5, h6 {
 # Intro Section
 --------------------------------------------------------------*/
 #intro {
-  width: 100vw;
+  width: 100vmax;
   height: 60vh;
   position: relative;
-  background-size: auto;
+  background-size: cover;
   background-blend-mode: color;
 }
 
@@ -330,6 +325,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro-content:hover #sous-titre{
     background-position: 0 100%;
+  }
+
+  .intro-content{
+
+    font-size: relative;
   }
 
 
@@ -1009,11 +1009,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
+#pp_ne{
+  width:25%;
+}
+
+
 /* Methodo Section
 --------------------------------*/
 
 #methodo{
-  height:5000px;
+  height:100vh;
   width:100vw;
 }
 
